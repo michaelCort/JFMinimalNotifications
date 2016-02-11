@@ -31,7 +31,7 @@
 
 static CGFloat const kNotificationViewHeight = 85.0f;
 static CGFloat const kNotificationTitleLabelHeight = 20.0f;
-static CGFloat const kNotificationPadding = 20.0f;
+static CGFloat const kNotificationPadding = 10.0f;
 static CGFloat const kNotificationAccessoryPadding = 10.0f;
 
 @interface JFMinimalNotification()
