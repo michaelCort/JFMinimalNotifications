@@ -57,7 +57,7 @@
     static dispatch_once_t dispatchToken;
     
     dispatch_once(&dispatchToken, ^{
-        yellow = hsb(47,100,100);
+        yellow = RGBCOLOR(255, 198, 0);
     });
     
     return yellow;

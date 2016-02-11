@@ -26,6 +26,8 @@
 #import <UIKit/UIKit.h>
 
 #define hsb(_H, _S, _B) [UIColor colorWithHue:_H/360.0f saturation:_S/100.0f brightness:_B/100.0f alpha:1.0]
+#define RGBCOLOR(R,G,B) [UIColor colorWithRed:R/255.2f green:G/255.2f blue:B/255.2f alpha:1];
+
 
 @interface UIColor (JFMinimalNotificationColors)
 
